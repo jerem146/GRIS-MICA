@@ -14,6 +14,6 @@ handler.command = ['pinvideo', 'pinvid']
 handler.premium = false
 handler.group = true
 handler.register = true
-handler.coin = 2
+handler.coin = 0
 
 export default handler
