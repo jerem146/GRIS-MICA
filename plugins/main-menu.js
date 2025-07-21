@@ -18,46 +18,59 @@ let handler = async (m, { conn, args }) => {
 ┃ 🥷 Creador : ${creador}🥷
 ╰─────────────────────╯
 *─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ──ׄ*
-*【𝕷 𝖎 𝖘 𝖙 𝖆 - 𝕯𝖊  𝕮 𝖔 𝖒 𝖆 𝖓 𝖉 𝖔 𝖘】*
+╭─〔🎴 𝐈𝐍𝐅𝐎・𝐁𝐎𝐓 ✦ 彡〕─╮
+│ ❖ Comandos para consultar el estado y control del sistema.
+╰────────────────────────────╯
 
-┏━━❃「 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭 」
-┃ ☬ *#help • #menu*  
-┃   Lista de comandos disponibles.
-┃ ☬ *#uptime • #runtime*  
-┃   Ver el tiempo activo de la Bot.
-┃ ☬ *#staff • #colaboradores*  
-┃   Desarrolladores de la Bot.
-┃ ☬ *#serbot • #serbot code*  
-┃   Crear una sesión de Sub-Bot.
-┃ ☬ *#bots • #sockets*  
-┃   Sub-Bots activos en el sistema.
-┃ ☬ *#creador*  
-┃   Contacto del creador de la Bot.
-┃ ☬ *#status • #estado*  
-┃   Estado actual de la Bot.
-┃ ☬ *#links • #grupos*  
-┃   Ver enlaces oficiales y grupos.
-┃ ☬ *#infobot • #infobot*  
-┃   Información completa de la Bot.
-┃ ☬ *#sug • #newcommand*  
-┃   Sugerir nuevos comandos.
-┃ ☬ *#p • #ping*  
-┃   Ver la velocidad de respuesta.
-┃ ☬ *#reporte • #reportar*  
-┃   Reportar fallos o problemas.
-┃ ☬ *#sistema • #system*  
-┃   Estado del sistema de la Bot.
-┃ ☬ *#speed • #speedtest*  
-┃   Estadísticas de velocidad.
-┃ ☬ *#views • #usuarios*  
-┃   Ver usuarios registrados.
-┃ ☬ *#funciones • #totalfunciones*  
-┃   Ver todas las funciones activas.
-┃ ☬ *#ds • #fixmsgespera*  
-┃   Eliminar archivos innecesarios.
-┃ ☬ *#editautoresponder*  
-┃   Configurar un Prompt personalizado.
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━ ⪩ 🌐 𝗚𝗘𝗡𝗘𝗥𝗔𝗟
+┃⩺ *#help* • *#menu*
+┃   ⤷ Ver lista de comandos del bot.
+┃⩺ *#uptime* • *#runtime*
+┃   ⤷ Tiempo activo o en línea.
+┃⩺ *#status* • *#estado*
+┃   ⤷ Estado actual del sistema.
+┃⩺ *#p* • *#ping*
+┃   ⤷ Ver velocidad de respuesta.
+╰━━━━━━━━━━━━━━━━━━━━━━╯
+
+╭━━ ⪩ ⚙️ 𝗦𝗜𝗦𝗧𝗘𝗠𝗔
+┃⩺ *#speed* • *#speedtest*
+┃   ⤷ Prueba de velocidad.
+┃⩺ *#sistema* • *#system*
+┃   ⤷ Información del servidor.
+┃⩺ *#ds* • *#fixmsgespera*
+┃   ⤷ Limpiar sesiones viejas.
+┃⩺ *#funciones* • *#totalfunciones*
+┃   ⤷ Ver funciones activas.
+╰━━━━━━━━━━━━━━━━━━━━━━╯
+
+╭━━ ⪩ 👥 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦
+┃⩺ *#views* • *#usuarios*
+┃   ⤷ Usuarios registrados.
+┃⩺ *#editautoresponder*
+┃   ⤷ Configurar respuesta IA.
+┃⩺ *#sug* • *#newcommand*
+┃   ⤷ Sugerir un nuevo comando.
+╰━━━━━━━━━━━━━━━━━━━━━━╯
+
+╭━━ ⪩ 🧩 𝗦𝗢𝗣𝗢𝗥𝗧𝗘
+┃⩺ *#sc* • *#script*
+┃   ⤷ Repositorio del bot.
+┃⩺ *#staff* • *#colaboradores*
+┃   ⤷ Equipo de desarrollo.
+┃⩺ *#reporte* • *#reportar*
+┃   ⤷ Informar un problema.
+┃⩺ *#links* • *#grupos*
+┃   ⤷ Grupos oficiales del bot.
+╰━━━━━━━━━━━━━━━━━━━━━━╯
+
+╭━━ ⪩ 🤖 𝗦𝗨𝗕-𝗕𝗢𝗧𝗦
+┃⩺ *#serbot* • *#serbot code*
+┃   ⤷ Crear sesión de Sub-Bot.
+┃⩺ *#bots* • *#sockets*
+┃   ⤷ Ver Sub-Bots activos.
+╰━━━━━━━━━━━━━━━━━━━━━━╯
+`;
 
 ┏━━⪩「 𝐆𝐫𝐮𝐩𝐨𝐬 」⪨
 ┃ ⌘ *#config • #on*
