@@ -56,7 +56,7 @@ handler.tags = ['economy']
 handler.help =['ruleta *<cantidad> <color>*']
 handler.command = ['ruleta', 'roulette', 'rt']
 handler.register = true
-handler.group = true 
+handler.group = false 
 
 export default handler
 
